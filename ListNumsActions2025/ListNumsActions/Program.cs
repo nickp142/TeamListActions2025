@@ -23,7 +23,11 @@
                         Console.WriteLine(string.Join(" ", nums));
                         break;
                     case "contains":
+<<<<<<< HEAD
                         //Kzl
+=======
+                        // KZL
+>>>>>>> f8df6897cc8203ab3667f034269a19581fbcb9f8
                         int cont= int.Parse(cmd[3]); 
                         if (cont >= 1)
                         {
