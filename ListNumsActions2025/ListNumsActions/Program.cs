@@ -23,6 +23,16 @@
                         Console.WriteLine(string.Join(" ", nums));
                         break;
                     case "contains":
+                        int cont= int.Parse(cmd[3]);
+                        if (cont >= 1)
+                        {
+                            Console.WriteLine( "Yes" );
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("No");
+                        }
                         
                         //TODO
                         break;
