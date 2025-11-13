@@ -27,6 +27,11 @@
                         //TODO
                         break;
 
+                    case "remove":
+                        int indexs = int.Parse(cmd[1]);
+                        nums.Remove(indexs);
+                        break;
+
 
                     //TO DO
                     default:
